@@ -30,4 +30,4 @@ deploy:
   file: "build/bootdisk.iso"
   on:
     repo: skiftOS/skift
-  cleanup: 'false'
+  skip_cleanup: true
